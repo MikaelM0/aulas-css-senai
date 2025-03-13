@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estilo Incorporado</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background: #eee;
+        }
+        header{
+            background: #ddd;
+            margin: 10px 20px 5px 25px; 
+            /* topo, direita, baixo, esquerda */
+        }
+        main{
+            background: #aaa;
+            padding: 10px 15px;
+            /* topo baixo, esquerda direita */
+        }
+        p{
+            color: red;
+        }
+        #primeiro-paragrafo{
+            color: aqua;
+        }
+        .paragrafo-padrão-classe{
+            color: blueviolet;
+        }
+        .paragrafo-padrão{
+            color: chartreuse;
+        }
+        footer{
+            background: #333;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Título Principal</h1>
+    </header>
+    <main>
+        <h2>Título Secundário</h2>
+        <p id="primeiro-paragrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda animi, quis pariatur maiores repellat saepe nesciunt molestiae. Sequi quos magni dignissimos ab voluptatum amet unde aliquid vitae dolorum, qui minus.</p>
+        <section>
+            <article>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus reprehenderit aut illo eveniet blanditiis quo quidem unde, dolorem autem cum, ratione laudantium aliquam temporibus dolores aliquid dolor nulla! Velit, beatae?</p>
+
+                <p class="paragrafo-padrão-classe">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit quibusdam facilis totam odio. Exercitationem optio, quos veniam enim perspiciatis quas laboriosam veritatis nobis? Magni fuga itaque a. Aliquam, deserunt quam.</p>
+
+                <p class="paragrafo-padrão">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo consequatur obcaecati suscipit molestiae, commodi nemo quod. Eligendi, nostrum. Totam voluptas quo eaque at ipsam! Nobis animi cupiditate architecto odio quaerat.</p>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <address>&copy; Todos os direito reservados</address>
+    </footer>
+
+</body>
+</html>
