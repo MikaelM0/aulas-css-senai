@@ -1,15 +1,19 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Open Sans", sans-serif;
 }
 
 .container{
-    width: 1328;
+    width: 1328px;
     margin: auto;
 }
 
 /* header */
+
+header{
+    padding: 20px;
+}
 
 h1{
     text-align: center;
@@ -18,8 +22,75 @@ h1{
 
 /* nav */
 
+nav{
+    background: rgb(180, 180, 180);
+    padding: 12px ;
+}
+
 nav ul{
     list-style: none;
     display: flex;
+    justify-content: space-around;
+}
+
+nav ul li a{
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    font-size: 20px;
+    text-decoration:none;
+    background: rgb(255, 255, 255);
+    padding: 13px ;
+    transition: all ease-in-out 0.3s;
+    border-radius: 5px;
+}
+
+nav ul li a:hover{
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+/* banner */
+
+#banner img{
+    width: 100%;
+}
+
+/* post */
+
+.posts h2{
+    text-align: center;
+    margin: 91px 0 62px;
+    font-size: 64px;
+
+}
+
+.posts .container{
+    display: flex;
     justify-content: space-between;
+}
+
+.posts img{
+    border-radius: 20px 20px 0 0 ;
+}
+
+.posts h3{
+    font-size: 20px;
+    margin: 16px 16px 0;
+}
+
+.posts h4{
+    margin-left: 16px;
+    font-weight: normal;
+}
+
+.posts p{
+    margin: 32px 16px;
+}
+
+.posts a{
+    background: rgb(128, 0, 128);
+    color: rgb(255, 255, 255);
+    padding: 10px 24px;
+    border-radius: 100px;
+
 }
