@@ -1,0 +1,177 @@
+*{
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+   
+}
+
+.container{
+    width: 1328px;
+    margin: auto;
+   
+}
+
+
+
+/* header */
+
+header{
+    padding: 20px;
+}
+
+h1{
+    text-align: center;
+}
+
+/* nav */
+
+nav{
+    background: #692f33;
+    padding: 24px 0;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li a{
+    color:  #000000;
+    font-weight: 600;
+    font-size: 20px;
+    text-decoration: none;
+    background: #fff;
+    padding: 15px;
+    transition: all ease-in-out 0.5s;
+    border-radius: 18% 0 18% 
+}
+
+main{
+    background-color: #ffffff;
+}
+
+footer{
+    background-color: #ffffff
+}
+
+nav ul li a:hover{
+    background: #000;
+    color:#fff
+}
+
+/* banner */
+
+#banner img{
+    width: 100%;
+}
+
+/* posts */
+
+.posts h2{
+    text-align: center;
+    margin: 91px 0 62px;
+    font-size: 40px;
+}
+
+.posts .container{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.posts .card{
+    width: 360px;
+}
+
+
+.posts img{
+    border-radius: 20px 20px 0px ;
+}
+
+.posts h3{
+
+font-size: 20px;
+margin: 16px 16px 16px;
+}
+
+
+
+.posts h4{
+    margin-left: 16px ;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.posts p{
+
+    margin: 32px 16px;
+
+}
+.posts a{
+    background: #692f33;
+    color: #fff;
+    padding: 10px 24px;
+    border-radius: 100px;
+    margin-bottom: 20px;
+    display: block;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.posts a:hover{
+    background:#d33540 ;
+}
+
+.posts .footer-card{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-top .container{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid;
+    
+}
+
+.lik-group a{
+    display: block;
+    color: #000000;
+    text-decoration: none; 
+    padding: 20px;
+}
+
+.footer-butom p{
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    background-color: #692f33;
+    
+}
+.post2 .container{
+    display:flex ;
+    justify-content: space-around;
+    padding: 45px;
+
+}
+
+.post2 h2{
+    display: flex;
+    justify-content: center;
+    font-size: 32px;
+}
+
+.post3 h2{
+    display: flex;
+    justify-content: center;
+    font-size: 32px;
+}
+
+.post3 .container{
+    display:flex ;
+    justify-content: space-around;
+    padding: 45px;
+
+}
+
