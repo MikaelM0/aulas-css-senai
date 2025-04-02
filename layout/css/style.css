@@ -343,3 +343,6 @@ nav ul li{
     display: flex;
     justify-content: space-between;
  }
+ footer{
+    border-top: 1px solid #000;
+ }
