@@ -344,5 +344,9 @@ nav ul li{
     justify-content: space-between;
  }
  footer{
+    margin-top: 250px;
+ }
+ footer .container.top{
     border-top: 1px solid #000;
+    padding-top: 105px;
  }
