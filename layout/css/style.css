@@ -350,3 +350,33 @@ nav ul li{
     border-top: 1px solid #000;
     padding-top: 105px;
  }
+ 
+ /* design responsivo */
+
+ @media (max-width:480px){
+    .container{
+        width: 100% !important;
+        flex-wrap: wrap;
+    }
+
+    .cta p,.testimonial h3{
+        width: 100%;
+     }
+
+     .brands,.about-us-video{
+        display: none;
+     }
+
+     img{
+        max-width: 100%;
+     }
+     
+     .works .image-work{
+        margin-right: 0;
+        margin-bottom: 20px;
+     }
+
+     .ready fieldset{
+        flex-direction: column;
+     }
+ }
